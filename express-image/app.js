@@ -5,7 +5,7 @@ const app = express();
 
 // Server connection
 const PORT = 9000;
-const HOST = '0.0.0.0';
+const HOST = '127.0.0.1';
 
 // Application content
 const os = ['Windows','macOS','Linux'];
