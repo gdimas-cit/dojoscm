@@ -1,6 +1,6 @@
 var supertest = require("supertest");
 var should = require("should");
-var server = supertest.agent("http://express:9000");
+var server = supertest.agent("http://0.0.0.0:9000");
 
 // Unit Test
 describe("Webapp Status", function () {
