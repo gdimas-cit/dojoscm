@@ -2,9 +2,6 @@ var supertest = require("supertest");
 var should = require("should");
 var app = require("./app.js");
 
-// Expected content
-var os = ['Windows','macOS','Linux'];
-
 describe('GET /', function() {
     // Test 1 - HTTP status
     it("Expect HTTP status 200", function(done) {
