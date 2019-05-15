@@ -1,5 +1,5 @@
 {
-  "name": "test-image",
+  "name": "app-dojo",
   "version": "1.0.0",
   "description": "Dojo Sample Mocha Test Server",
   "scripts": {
