@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node app.js",
     "mocha": "mocha --reporter spec test.js",
-    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=/JUnit/reports.xml test.js"
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=test-reports.xml test.js"
   },
   "repository": {
     "type": "git",
